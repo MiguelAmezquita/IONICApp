@@ -1,0 +1,113 @@
+[{
+    "id": 1,
+    "title": "1 Promoción",
+    "price": 100,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 2,
+    "title": "2 Promoción",
+    "price": 150,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 3,
+    "title": "3 Promoción",
+    "price": 200,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 4,
+    "title": "4 Promoción",
+    "price": 300,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 5,
+    "title": "5 Promoción",
+    "price": 100,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 6,
+    "title": "6 Promoción",
+    "price": 150,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 7,
+    "title": "7 Promoción",
+    "price": 200,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 8,
+    "title": "8 Promoción",
+    "price": 300,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 9,
+    "title": "9 Promoción",
+    "price": 100,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 10,
+    "title": "10 Promoción",
+    "price": 150,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 11,
+    "title": "11 Promoción",
+    "price": 200,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 12,
+    "title": "12 Promoción",
+    "price": 300,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 13,
+    "title": "13 Promoción",
+    "price": 100,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 14,
+    "title": "14 Promoción",
+    "price": 150,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 15,
+    "title": "15 Promoción",
+    "price": 200,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}, {
+    "id": 16,
+    "title": "16 Promoción",
+    "price": 300,
+    "address": "Antigua Guatemala",
+    "latitud": "14.64072",
+    "longitud": "-90.51327"
+}]

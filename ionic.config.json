@@ -1,0 +1,8 @@
+{
+  "name": "GuatemalaApp",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
