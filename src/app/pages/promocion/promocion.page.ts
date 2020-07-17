@@ -27,9 +27,27 @@ export class PromocionPage implements OnInit {
   ngOnInit() {
   }
 
+
+  /**
+  * Esta funcion envia como queryParams la promocion selecionada del listado 
+  * enviandola ala pagina detall-promocion
+  **/
+
   detallePromocion(promocion: any) {
     this.router.navigate(['detalle-promocion'], { queryParams: promocion })
   }
+
+  /**
+  * GetData:
+  * Utiliza un servicio creado con opciones genericas para obtencion de datos por medio de apirest
+  * las instrucciones que se pueden utilizar son
+  *  1. getEntitys
+  *  2. getEntity
+  *  3. PostEntity
+  *  4. deleteEntity
+  *  5. Update
+  *  en cada funcion declarada se encuentra su respectiva documentación.
+  **/
 
   getData() {
     this.AppService.getEntitys(this.AppEnvironment.urlBase + this.AppEnvironment.endPoints.promociones).then((response: Promocion[]) => {

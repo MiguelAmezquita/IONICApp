@@ -18,8 +18,10 @@ export class HttpService {
   /**
    * se utiliza para realizar la comuncación entre el back en y el front end.
    * @param url recibe una dirección en donde se encuntra alojado el EndPoint
+   * @param message mensaje que se mostrara en el loading al momento de ralizar la petición
+   * @param showloading  se puede utilizar para mostrar o no el loading al momento de realizar una peticion
    * retorna una promesa con una los datos obtenidos.
-   */
+   **/
   getEntitys(url: string, message?: string, showloading: boolean = true) {
     if (showloading) this.loadingService.showloader(message);
     return this.http.get(url, { withCredentials: false }).toPromise().then((response: any[]) => {
@@ -35,7 +37,7 @@ export class HttpService {
   * se utiliza para realizar la comuncación entre el back en y el front end.
   * @param url recibe una dirección en donde se encuntra alojado el EndPoint
   * retorna una promesa con una entidad.
-  */
+  **/
   getEntity(url: string, options?: {}) {
     this.loadingService.showloader()
     return this.http.get(url, options).toPromise().then((response: any) => {
@@ -49,8 +51,10 @@ export class HttpService {
   /**
    * @param url recibe una dirección en donde se encuntra alojado el EndPoint
    * @param entity recibe la entidad que se enviara al EndPoint
+   * @param message mensaje que se mostrara en el loading al momento de ralizar la petición
+   * @param showloading  se puede utilizar para mostrar o no el loading al momento de realizar una peticion
    * retorna una promesa con una los datos obtenidos.
-   */
+   **/
   PostEntity(url: string, entity: any, message?: string, showloading: boolean = true, options?: {}) {
     if (showloading) this.loadingService.showloader(message);
     return this.http.post(url, entity, options).toPromise().then((response: any) => {
@@ -64,9 +68,11 @@ export class HttpService {
   /**
    * @param url recibe una dirección en donde se encuntra alojado el EndPoint
    * @param entity recibe la entidad que se enviara al EndPoint
+   * @param message mensaje que se mostrara en el loading al momento de ralizar la petición
+   * @param showloading  se puede utilizar para mostrar o no el loading al momento de realizar una peticion
    * retorna una promesa con una los datos obtenidos. esta funcion se es utilizada para elimiar las entidades recibidas
    * en su parametro entity
-   */
+   **/
   deleteEntity(url: string, entity: any, message?: string, showloading: boolean = true) {
     if (showloading) this.loadingService.showloader(message);
     return this.http.delete(url, entity).toPromise().then((response: any) => {
@@ -80,10 +86,12 @@ export class HttpService {
   /**
    * @param url recibe una dirección en donde se encuntra alojado el EndPoint
    * @param entity recibe la entidad que se enviara al EndPoint
+   * @param message mensaje que se mostrara en el loading al momento de ralizar la petición
+   * @param showloading  se puede utilizar para mostrar o no el loading al momento de realizar una peticion
    * retorna una promesa con una los datos obtenidos. 
    * esta funcion se es utilizada crear o modificar una entidad
    * en su parametro entity
-   */
+   **/
   updateEntity(url: string, entity: any, message?: string, showloading: boolean = true) {
     if (showloading) this.loadingService.showloader(message);
     return this.http.put(url, entity).toPromise().then((response: any) => {
@@ -95,6 +103,11 @@ export class HttpService {
     });
   }
 
+
+  /**
+   * esta funcion se puede utilizar para mostrar los errores que sucedan durante la peticion
+   * Ejemplo: BadRequest, Unauthorized, Forbidden, NotFound, MethodNotAllowed entre otras.
+   **/
 
   private showError(err: any) {
     let er: any = err["error"]["error"] || undefined;

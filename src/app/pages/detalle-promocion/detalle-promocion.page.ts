@@ -10,6 +10,12 @@ import { Platform } from '@ionic/angular';
 })
 export class DetallePromocionPage implements OnInit {
 
+
+  /**
+  * En el constructor de la pagina se esta capturando el detalle de la promocion seleccinada en la pagina anterior
+  **/
+
+
   promocion: Promocion
   param: any
   constructor(
@@ -25,6 +31,10 @@ export class DetallePromocionPage implements OnInit {
   ngOnInit() {
   }
 
+
+  /**
+  * Funcion utilizada para abrir google maps o cualquier plataforma de gps instalada en el dispositivo
+  **/
 
   go() {
     let destination = this.promocion.latitud + ',' + this.promocion.longitud;
