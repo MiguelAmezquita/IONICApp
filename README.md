@@ -2,9 +2,15 @@
 Prueba Técnica desarrollo de aplicaciones Híbridas
 
 
-La siguiente aplicación es
+El repositoro es de una aplicacion creada con
+   - IONIC 6.10.1
+   - Cordova 9
+   - CLI 9.1.5
 
-
+La aplicación esta computas por 2 paginas
+   1. Listado de promociones
+   2. Detalle de las promociones
+   
 
 Instrucciones:
 
