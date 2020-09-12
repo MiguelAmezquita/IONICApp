@@ -1,6 +1,4 @@
-# Guatemala.com
-Aplicacion Híbrida
-
+# Aplicacion Hibrida
 
 El repositoro es de una aplicacion creada con
    - IONIC 6.10.1
