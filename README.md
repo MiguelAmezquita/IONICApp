@@ -1,5 +1,5 @@
 # Guatemala.com
-Prueba Técnica desarrollo de aplicaciones Híbridas
+Aplicacion Híbrida
 
 
 El repositoro es de una aplicacion creada con
